@@ -12,6 +12,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 #Use fontawesome library for styles
 gem 'font-awesome-sass', '~> 4.6.2'
 
+gem 'devise', '~> 3.5.6'
+
 #Use postgresql as the database for production
 group :production do
   gem 'pg'

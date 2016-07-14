@@ -8,8 +8,8 @@ protect_from_forgery with: :exception
 
   protected
     def configure_permitted_parameters
-      devise_parameters_sanitizer.for(:sign_up) {|u| u.permit(:name, :stripe_card_token, :email, :password,
-        :password_confirmation)}
+   devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:name, :stripe_card_token, :email, :password, :password_confirmation) }
+
   end
 
 end

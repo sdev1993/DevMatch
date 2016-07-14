@@ -19,7 +19,7 @@ group :production do
 end
 
 #Use devise for user auth
-
+gem 'devise', '~>3.5.6'
 
 #Use stripe for handling payments
 gem 'stripe', '~>1.44.0'
